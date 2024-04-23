@@ -1,0 +1,72 @@
+.containerNavbar,
+.banner {
+  background-image: url("../images/banner-initial.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logoGrowflix {
+  height: 30px;
+}
+
+.h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.btnBanner {
+  width: 180px;
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  height: 80vh;
+}
+
+.containerDois,
+.containerPerguntas,
+.footer {
+  background-color: black;
+}
+
+.colunaTexto {
+  margin-top: 70px;
+  padding-left: 50px;
+}
+
+.small {
+  color: rgb(192, 189, 189);
+}
+
+.btnAccordion {
+  background: url("../images/pngwing.com\(1\).png") no-repeat right;
+  background-size: 20px;
+  border-radius: 5px;
+  animation: plusRotate 1s ease-in-out;
+}
+
+@keyframes plusRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+    height: 250px;
+    width: 250px;
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

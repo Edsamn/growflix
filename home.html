@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style-home.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary p-0">
+      <div class="container-fluid containerNavbar">
+        <div class="row">
+          <div class="col d-flex align-items-center">
+            <a class="navbar-brand me-2" href="./index.html"><img class="logoGrowflix" src="./images/logo-growflix.svg" /></a>
+            <a href=""><p class="small me-2 mt-2">Início</p></a>
+            <a href=""><p class="small me-2 mt-2">Growcast[episódios]</p></a>
+            <a href=""><p class="small me-2 mt-2">Webinar em Flutter</p></a>
+            <a href=""><p class="small me-2 mt-2">Jornada UX/UI</p></a>
+            <a href=""><p class="small me-2 mt-2">Diversos</p></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid banner">
+      <div class="bannerText">
+        <p class="text-white">PODCAST</p>
+        <p class="h1 text-white">GROWCAST</p>
+        <button type="button" class="btn btn-light">
+          <a href="https://www.youtube.com/embed/7OWT3lfHYvE" target="_blank"><strong>Assistir</strong></a>
+        </button>
+      </div>
+    </div>
+    <div class="container-fluid movies">
+      <div class="row">
+        <div class="col-12">
+          <div class="container movies">
+            <div class="row mt-4">
+              <div class="col-12"><p class="h3 text-white">Growcast[episódios]</p></div>
+            </div>
+            <div class="row my-4" id="row-growcast"></div>
+            <div class="row mt-4">
+              <div class="col-12"><p class="h3 text-white">Webinar em Flutter</p></div>
+              <div class="row my-4" id="row-webinar"></div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12"><p class="h3 text-white">Jornada UX/UI</p></div>
+              <div class="row my-4" id="row-ux-ui"></div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12"><p class="h3 text-white">Diversos</p></div>
+              <div class="row my-4" id="row-diversos"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row border color-secondary"></div>
+    </div>
+    <div class="container-fluid footer">
+      <div class="row">
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 pt-5 small">Dúvidas? Ligue 0800 591 8942</div>
+              <div class="col-6 col-sm-3 pt-5">
+                <p class="small">Perguntas frequentes</p>
+                <p class="small">Relações com investidores</p>
+                <p class="small">Formas de assistir</p>
+                <p class="small">Informações corporativas</p>
+                <p class="small">Só na Growflix</p>
+              </div>
+              <div class="col-6 col-sm-3 pt-5">
+                <p class="small">Central de Ajuda</p>
+                <p class="small">Carreiras</p>
+                <p class="small">Termos de Uso</p>
+                <p class="small">Entre em contato</p>
+              </div>
+              <div class="col-6 col-sm-3 pt-5">
+                <p class="small">Conta</p>
+                <p class="small">Resgatar cartão pré-pago</p>
+                <p class="small">Privacidade</p>
+                <p class="small">Teste de velocidade</p>
+              </div>
+              <div class="col-6 col-sm-3 pt-5">
+                <p class="small">Media Center</p>
+                <p class="small">Comprar cartão pré-pago</p>
+                <p class="small">Preferências de cookies</p>
+                <p class="small">Avisos legais</p>
+              </div>
+              <div class="col-12 pt-5 pb-5 small">Growflix Growdev</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-movie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="body-movie"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/moviesList.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

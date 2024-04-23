@@ -1,0 +1,59 @@
+.logoGrowflix {
+  height: 30px;
+}
+
+.small {
+  color: rgb(192, 189, 189);
+}
+
+a {
+  text-decoration: none;
+}
+
+.containerNavbar,
+.banner {
+  background-image: url("../images/growcast-01.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner {
+  height: 700px;
+}
+
+.h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.bannerText {
+  position: relative;
+  top: 400px;
+  left: 100px;
+}
+
+.show-body {
+  transition: all 0.5s ease-out;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.show-body > div {
+  display: none;
+}
+
+.show-body:hover > div {
+  display: block;
+}
+
+.show-body:hover {
+  transform: scale(1.1);
+}
+
+.footer,
+.movies,
+.card-body {
+  background-color: black;
+}
