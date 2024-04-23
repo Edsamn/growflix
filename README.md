@@ -5,3 +5,5 @@
   O objetivo da aplicação é exercitar o uso de bootstrap para criar designs bonitos e responsivos, tanto para pcs quanto para celulares.
 </p>
 <p>Esta aplicação contém 2 páginas, uma descrevendo a Growflix e a outra com os vídeos do catálogo.</p>
+
+<a href="https://growflix-sand.vercel.app/" target="_blank">Link do projeto live</a>
